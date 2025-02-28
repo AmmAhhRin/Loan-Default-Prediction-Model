@@ -1,5 +1,5 @@
-# Credit-Card-Default-Prediction-Model
-A small Flask deployment of ML model predicting the default of customers.
+# Loan-Default-Prediction-Model
+A small Flask deployment of ML model predicting loan default of customers.
 
 **Getting Started**
 1. Clone the Repository
