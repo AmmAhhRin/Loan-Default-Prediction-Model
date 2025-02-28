@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Default Prediction</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 500px;
+            margin-top: 50px;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .btn-custom {
+            width: 100%;
+            background-color: #007bff;
+            border: none;
+        }
+        .btn-custom:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h3>Credit Default Prediction</h3>
+    <form action="/result" method="POST">
+        <div class="mb-3">
+            <label for="age" class="form-label">Age:</label>
+            <input type="number" id="age" name="age" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="income" class="form-label">Income:</label>
+            <input type="number" id="income" name="income" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="loan" class="form-label">Loan Amount:</label>
+            <input type="number" id="loan" name="loan" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-custom text-white">Predict</button>
+    </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
