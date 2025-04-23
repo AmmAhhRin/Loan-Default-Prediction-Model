@@ -1,5 +1,5 @@
 # Loan-Default-Prediction-Model
-A small Flask deployment of ML model predicting loan default of customers.
+A small Flask deployment of Logistic Regression model predicting loan default of customers.
 
 **Getting Started**
 1. Clone the Repository
